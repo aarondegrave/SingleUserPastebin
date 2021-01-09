@@ -23,8 +23,6 @@ def func():
       a = link.has_attr('href')
       if a:
         links.append(link.attrs['href'])
-        with open('test.txt', 'w') as c:
-          c.write(str(links))
     n = 9
     if check_against == links:
       continue
